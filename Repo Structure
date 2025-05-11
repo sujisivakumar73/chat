@@ -1,0 +1,15 @@
+customer-support-bot/
+│
+├── app.py                   # Flask API to serve the chatbot
+├── bot/
+│   ├── __init__.py
+│   ├── intent_classifier.py # ML-based intent recognition
+│   ├── rule_engine.py       # Rule-based response engine
+│   └── responses.py         # Predefined bot responses
+│
+├── data/
+│   └── intents.json         # Intent examples and training data
+│
+├── train.py                 # Script to train the intent classifier
+├── requirements.txt         # Python dependencies
+└── README.md
